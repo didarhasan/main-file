@@ -1,0 +1,440 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li {
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+}
+
+header {
+    position: relative;
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffffa3;
+}
+
+.navbar-light .navbar-nav .nav-link {
+
+    color: #000;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.btn-us {
+    color: #fff !important;
+    background: #00b894;
+    padding-top: 20px 0;
+}
+
+.myself {
+    position: absolute;
+}
+
+.height {
+    height: 90vh;
+}
+
+.myself h3 {
+
+    color: #000;
+
+    font-size: 25px;
+
+    font-weight: 500;
+}
+
+.myself h1 {
+
+    color: #000;
+
+    font-size: 46px;
+
+    font-weight: 600;
+
+    margin: 15px 0;
+}
+
+.myself span {
+    width: 50%;
+    height: 2px;
+    color: #00b894;
+}
+
+.myself p {
+    color: #707070;
+    margin-bottom: 40px;
+}
+
+.btn-me {
+
+    color: #fff;
+
+    background: #00b894;
+
+    padding: 0;
+
+    padding: 10px 50px;
+
+    border-radius: 0;
+
+}
+
+.btn-me:hover {
+    background: #323232;
+    color: #fff;
+}
+
+.btn-view {
+
+    color: #fff;
+
+    background: #323232;
+
+    padding: 0;
+
+    padding: 10px 50px;
+
+    border-radius: 0;
+
+    margin-left: 35px;
+}
+
+.btn-view:hover {
+    background: #00b894;
+    color: #fff;
+}
+
+.about_me {
+
+    padding: 50px 0;
+
+    background: #ffffff;
+}
+
+.about_me_crivate {}
+
+.about_me_crivate h5 {
+
+    font-size: 20px;
+
+    color: #000;
+}
+
+.about_me_crivate span {
+
+    display: block;
+
+    width: 50px;
+
+    height: 2px;
+
+    background: #00b894;
+    margin-right: 10px;
+
+    margin-top: 17px;
+}
+
+.about_me_crivate h1 {
+
+    color: #000;
+
+    font-size: 37px;
+
+    margin: 10px 0;
+}
+
+.about_me_crivate p {
+
+    font-size: 16px;
+
+    color: #707070;
+
+    margin-top: 50px;
+}
+
+.My_Provid {
+
+    background: #f5f6fb;
+
+    padding: 50px 0;
+}
+
+.my_Provid_one {}
+
+.my_Provid_one h1 {
+
+    font-size: 50px;
+
+    font-weight: 600;
+}
+
+.graphic {
+
+
+
+    padding: 30px;
+
+    box-shadow: #fff;
+
+    box-shadow: 3px 0px 1px #ffffff08;
+
+    background: #fff;
+}
+
+.graphic h4 {
+
+    color: #000;
+
+    font-size: 20px;
+
+    margin: 10px 0;
+}
+
+.graphic p {
+
+    color: #707070;
+
+    font-size: 16px;
+}
+
+.graphic_one {
+
+    color: #00b894;
+
+    font-size: 50px;
+}
+
+.graphic_one i {
+    margin-left: 10px;
+}
+
+.bar {
+    width: 100%;
+    height: 50vh;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills {}
+
+.skills h2 {
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.progress_bar {
+    background: #959595;
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress_bar div {
+    height: 10px;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.progress_bar div span {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #222;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.thml {
+    background-color: #e91e63;
+}
+
+.CSS {
+    background-color: #cddc39;
+}
+
+.JavaSccript {
+    background-color: #00bcd4;
+}
+
+.Phyton {
+    background-color: #ffeb3b
+}
+
+.bar {
+    width: 100%;
+    height: 50vh;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills {}
+
+.skills h2 {
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.progress_bar {
+    background: #959595;
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress_bar div span {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #222;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.thml {
+    background-color: #e91e63;
+}
+
+.CSS {
+    background-color: #cddc39;
+}
+
+.JavaSccript {
+    background-color: #00bcd4;
+}
+
+.Phyton {
+    background-color: #ffeb3b;
+}
+
+.Recat {
+    background-color: #9c97b0;
+}
+
+.thml span {
+    border: 1px solid #e91e63;
+    animation: thml 1s linear forwards;
+}
+
+.CSS span {
+    border: 1px solid #cddc39;
+    animation: CSS 1s linear forwards;
+}
+
+.JavaSccript span {
+    border: 1px solid #00bcd4;
+    animation: JavaSccript 1s linear forwards;
+}
+
+.Phyton span {
+    border: 1px solid #ffeb3b;
+    animation: Phyton 1s linear forwards;
+}
+
+.thml .Recat {
+    border: 1px solid #9c97b0;
+    animation: React 1s linear forwards;
+
+}
+
+.testomonial {
+  background-image: url(../images/car1\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+}
+.testomonial p {
+
+    color: #fff;
+
+}
+
+.client {
+
+    display: flex;
+
+    margin-top: 20px;
+
+}
+
+.client_img {
+
+    width: 20%;
+
+}
+
+.client_des {
+
+    margin-left: 15px;
+
+}
+
+.client_des h6 {
+
+    color: #fff;
+
+    font-size: 23px;
+
+}
+
+.client_des h5 {
+
+    color: #fff;
+
+    font-size: 16px;
+}
+.card-img-top{
+    height: 40vh;
+    width: 100%;
+    object-fit: cover;
+}
